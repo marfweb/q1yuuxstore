@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Q1yuuX Store – VIP Mabar Break And Steal An Egg</title>
+<meta name="description" content="Jasa VIP Mabar Roblox Break And Steal An Egg. Pilih paket EGG atau Waktu, bayar lewat Sociabuzz atau QRIS.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sky:#7ec8ff; --grass:#3fcf4a; --grass-d:#1f8f2c; --ink:#1b1340;
+  --egg:#b44cff; --pink:#ff4fd8; --beak:#ffb21e; --paper:#fffdf5; --blue:#22b8ff;
+  --line:3px solid var(--ink);
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,sans-serif;font-weight:600;color:var(--ink);background:var(--sky);line-height:1.5;
+  background-image:linear-gradient(var(--sky) 0,var(--sky) 100%);}
+h1,h2,h3,.display{font-family:'Lilita One','Nunito',sans-serif;font-weight:400;letter-spacing:.01em}
+a{color:inherit}
+:focus-visible{outline:4px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+/* nav */
+header{background:var(--paper);border-bottom:var(--line);position:sticky;top:0;z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 20px;max-width:1040px;margin:0 auto}
+.logo{font-family:'Lilita One';font-size:1.6rem;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo b{display:inline-grid;place-items:center;width:34px;height:34px;background:var(--beak);border:var(--line);border-radius:6px;box-shadow:3px 3px 0 var(--ink);font-size:1.1rem}
+nav a{font-weight:800;text-decoration:none;padding:8px 12px;border-radius:8px}
+nav a:hover{background:var(--beak)}
+@media(max-width:600px){nav a.hide-s{display:none}}
+
+/* hero */
+.hero{padding:36px 0 56px}
+.hero-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);line-height:1;color:#fff;
+  -webkit-text-stroke:0;text-shadow:4px 4px 0 var(--ink),-2px -2px 0 var(--ink),2px -2px 0 var(--ink),-2px 2px 0 var(--ink),2px 2px 0 var(--ink)}
+.hero p{font-size:1.2rem;margin:18px 0 24px;max-width:30ch;font-weight:800}
+.game-tag{display:inline-block;background:var(--paper);border:var(--line);border-radius:999px;padding:4px 14px;font-weight:800;margin-bottom:14px;box-shadow:3px 3px 0 var(--ink)}
+.banner{border:var(--line);border-radius:14px;box-shadow:8px 8px 0 var(--ink);overflow:hidden;background:#fff;transform:rotate(1.5deg)}
+.banner img{display:block;width:100%;height:auto}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.banner{transform:none}}
+
+.btn{display:inline-block;font-family:'Lilita One';font-size:1.25rem;text-decoration:none;background:var(--beak);color:var(--ink);
+  border:var(--line);border-radius:12px;padding:12px 22px;box-shadow:5px 5px 0 var(--ink);cursor:pointer;transition:transform .08s,box-shadow .08s}
+.btn:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--ink)}
+.btn:active{transform:translate(5px,5px);box-shadow:0 0 0 var(--ink)}
+.btn.alt{background:var(--paper)}
+.btn.green{background:var(--grass)}
+
+/* grass section */
+.land{background:var(--grass);border-top:var(--line);padding:0 0 64px;position:relative}
+.land::before{content:"";display:block;height:14px;background:var(--grass-d);border-bottom:var(--line)}
+section{padding-top:48px}
+.sec-title{font-size:clamp(2rem,5vw,3rem);color:#fff;margin-bottom:6px;
+  text-shadow:3px 3px 0 var(--ink),-1.5px -1.5px 0 var(--ink),1.5px -1.5px 0 var(--ink),-1.5px 1.5px 0 var(--ink),1.5px 1.5px 0 var(--ink)}
+.sec-sub{font-weight:800;margin-bottom:22px;max-width:60ch}
+
+/* tabs */
+.tabs{display:flex;gap:10px;margin-bottom:22px;flex-wrap:wrap}
+.tab{font-family:'Lilita One';font-size:1.15rem;background:var(--paper);color:var(--ink);border:var(--line);border-radius:12px;padding:10px 18px;cursor:pointer;box-shadow:4px 4px 0 var(--ink)}
+.tab[aria-selected="true"]{background:var(--egg);color:#fff;transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.panel[hidden]{display:none}
+
+.note{background:var(--paper);border:var(--line);border-radius:12px;padding:10px 16px;font-weight:800;margin-bottom:22px;display:inline-block;box-shadow:4px 4px 0 var(--ink)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:20px}
+.card{background:var(--paper);border:var(--line);border-radius:16px;padding:18px;box-shadow:6px 6px 0 var(--ink);display:flex;flex-direction:column;gap:6px;position:relative}
+.card .egg{width:54px;height:68px;border:var(--line);border-radius:50% 50% 50% 50% / 62% 62% 38% 38%;margin-bottom:4px;
+  background:repeating-linear-gradient(135deg,var(--c1) 0 12px,var(--c2) 12px 24px)}
+.card .clock{width:54px;height:54px;border:var(--line);border-radius:50%;background:var(--c1);display:grid;place-items:center;font-size:1.5rem;margin-bottom:4px}
+.card h3{font-size:1.9rem;line-height:1.1}
+.card .price{font-family:'Lilita One';font-size:1.5rem;color:var(--grass-d)}
+.card .btn{margin-top:auto;font-size:1.05rem;padding:9px 14px;text-align:center}
+.card.best::after{content:"Terlaris";position:absolute;top:-14px;right:12px;background:var(--pink);color:#fff;font-family:'Lilita One';border:var(--line);border-radius:999px;padding:1px 12px;transform:rotate(4deg)}
+
+/* payment */
+.pay{background:var(--paper);border:var(--line);border-radius:18px;box-shadow:8px 8px 0 var(--ink);padding:24px}
+.pay-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:18px}
+.pay-box{border:var(--line);border-radius:14px;padding:16px;text-align:center;background:#fff}
+.pay-box h3{font-size:1.4rem;margin-bottom:10px}
+.pay-box img{max-width:100%;height:auto;border:var(--line);border-radius:10px;display:block;margin:0 auto 12px;background:#fff}
+.pay-box.qris img{max-height:430px;width:auto}
+.pay-box.sb img{max-width:260px}
+.pay-box p{font-weight:700;font-size:.95rem;margin-bottom:10px}
+.dl{font-size:.95rem;font-weight:800}
+.steps{margin:14px 0 0 1.2em}
+.steps li{margin-bottom:4px}
+
+footer{background:var(--ink);color:#fff;text-align:center;padding:24px 20px;font-weight:700}
+footer span{color:var(--beak)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#top"><b>Q</b>Q1yuuX Store</a>
+    <nav>
+      <a href="#vip" class="hide-s">VIP Mabar</a>
+      <a href="#bayar">Cara Bayar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div class="hero-grid">
+      <div>
+        <span class="game-tag">Roblox · Break And Steal An Egg</span>
+        <h1>Q1yuuX Store</h1>
+        <p>Mabar VIP biar petmu bagus. Pilih paket, bayar, langsung main bareng.</p>
+        <a class="btn" href="#vip">Lihat paket VIP</a>
+        <a class="btn alt" href="#bayar">Cara bayar</a>
+      </div>
+      <div class="banner">
+        <img src="images/banner.png" alt="Karakter Roblox memegang pickaxe pelangi di depan ayam tidur dan telur warna-warni" width="1918" height="1080">
+      </div>
+    </div>
+  </div>
+
+  <div class="land">
+    <div class="wrap">
+
+      <section id="vip">
+        <h2 class="sec-title">VIP Mabar</h2>
+        <p class="sec-subtitle sec-sub">Pilih jenis paket: berdasarkan hasil EGG, atau berdasarkan lama waktu mabar.</p>
+
+        <div class="tabs" role="tablist" aria-label="Jenis paket VIP Mabar">
+          <button class="tab" role="tab" id="tab-egg" aria-controls="panel-egg" aria-selected="true">Menu Mabar VIP EGG</button>
+          <button class="tab" role="tab" id="tab-waktu" aria-controls="panel-waktu" aria-selected="false">Menu Mabar VIP Waktu</button>
+        </div>
+
+        <div class="panel" id="panel-egg" role="tabpanel" aria-labelledby="tab-egg">
+          <p class="note">Catatan: pet campuran</p>
+          <div class="grid">
+            <article class="card" style="--c1:#ff4fd8;--c2:#ffd0f4">
+              <div class="egg"></div>
+              <h3>2T+/s</h3><div class="price">Rp 2.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP EGG 2T+/s – Rp 2.000">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#22b8ff;--c2:#c4ecff">
+              <div class="egg"></div>
+              <h3>5T+/s</h3><div class="price">Rp 3.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP EGG 5T+/s – Rp 3.000">Pilih paket</a>
+            </article>
+            <article class="card best" style="--c1:#b44cff;--c2:#e6c4ff">
+              <div class="egg"></div>
+              <h3>8T+/s</h3><div class="price">Rp 5.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP EGG 8T+/s – Rp 5.000">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#3fcf4a;--c2:#c9f7cc">
+              <div class="egg"></div>
+              <h3>10T+/s</h3><div class="price">Rp 7.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP EGG 10T+/s – Rp 7.000">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#ffb21e;--c2:#ffe9b0">
+              <div class="egg"></div>
+              <h3>15T/s</h3><div class="price">Rp 10.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP EGG 15T/s – Rp 10.000">Pilih paket</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="panel-waktu" role="tabpanel" aria-labelledby="tab-waktu" hidden>
+          <div class="grid">
+            <article class="card" style="--c1:#c4ecff">
+              <div class="clock" aria-hidden="true">⏱</div>
+              <h3>10 menit</h3><div class="price">Rp 3.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP Waktu 10 menit – Rp 3.000">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#ffd0f4">
+              <div class="clock" aria-hidden="true">⏱</div>
+              <h3>15 menit</h3><div class="price">Rp 5.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP Waktu 15 menit – Rp 5.000">Pilih paket</a>
+            </article>
+            <article class="card best" style="--c1:#e6c4ff">
+              <div class="clock" aria-hidden="true">⏱</div>
+              <h3>20 menit</h3><div class="price">Rp 7.500</div>
+              <a class="btn" href="#bayar" data-pkg="VIP Waktu 20 menit – Rp 7.500">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#c9f7cc">
+              <div class="clock" aria-hidden="true">⏱</div>
+              <h3>30 menit</h3><div class="price">Rp 10.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP Waktu 30 menit – Rp 10.000">Pilih paket</a>
+            </article>
+            <article class="card" style="--c1:#ffe9b0">
+              <div class="clock" aria-hidden="true">⏱</div>
+              <h3>1 jam</h3><div class="price">Rp 20.000</div>
+              <a class="btn" href="#bayar" data-pkg="VIP Waktu 1 jam – Rp 20.000">Pilih paket</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="bayar">
+        <h2 class="sec-title">Cara Bayar</h2>
+        <p class="sec-sub">Bayar lewat Sociabuzz (link atau barcode), atau scan QRIS.</p>
+
+        <div class="pay">
+          <p id="chosen" class="note" style="display:none"></p>
+
+          <div class="pay-grid">
+            <div class="pay-box sb">
+              <h3>Sociabuzz</h3>
+              <img src="images/sociabuzz.jpeg" alt="Barcode Sociabuzz neskapekopii" width="300" height="300" loading="lazy">
+              <p>Scan barcode di atas atau buka link:</p>
+              <a class="btn green" href="https://sociabuzz.com/neskapekopii" target="_blank" rel="noopener">Bayar via Sociabuzz</a>
+              <p class="dl" style="margin-top:10px">sociabuzz.com/neskapekopii</p>
+            </div>
+
+            <div class="pay-box qris">
+              <h3>QRIS</h3>
+              <img src="images/qris.jpeg" alt="QRIS Q1yuuX Store, NMID ID1025457475446" width="1136" height="1600" loading="lazy">
+              <p>Scan dengan aplikasi bank atau e-wallet yang berlogo QRIS.</p>
+              <a class="btn alt" href="images/qris.jpeg" download="QRIS-Q1yuuX-Store.jpeg">Simpan gambar QRIS</a>
+            </div>
+          </div>
+
+          <ol class="steps">
+            <li>Pilih paket VIP di atas.</li>
+            <li>Bayar sesuai harga lewat Sociabuzz atau QRIS.</li>
+            <li>Simpan bukti pembayaran, lalu konfirmasi ke admin untuk mulai mabar.</li>
+          </ol>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p><span>Q1yuuX Store</span> · Jasa VIP Mabar Break And Steal An Egg</p>
+  <p style="font-size:.85rem;margin-top:4px;opacity:.75">Situs fan-made, tidak berafiliasi dengan Roblox.</p>
+</footer>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  function show(id){
+    tabs.forEach(function(t){
+      var on=t.id===id;
+      t.setAttribute('aria-selected',on);
+      document.getElementById(t.getAttribute('aria-controls')).hidden=!on;
+    });
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){show(t.id)});
+    t.addEventListener('keydown',function(e){
+      if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+        var n=tabs[(i+(e.key==='ArrowRight'?1:tabs.length-1))%tabs.length];
+        n.focus();show(n.id);
+      }
+    });
+  });
+  var chosen=document.getElementById('chosen');
+  document.querySelectorAll('[data-pkg]').forEach(function(a){
+    a.addEventListener('click',function(){
+      chosen.textContent='Paket dipilih: '+a.getAttribute('data-pkg');
+      chosen.style.display='inline-block';
+    });
+  });
+})();
+</script>
+</body>
+</html>
